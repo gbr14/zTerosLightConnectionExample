@@ -13,7 +13,7 @@ For more information please see [our website](https://gbr14.com/gbr14-products/)
 ## Example workflow
 * Generate a record  
         python3 EncClientGenerateRecord.py --Address 192.168.0.1:8080  
-        {"RecordUID": "9bb7RcIRWD6UUy3pxmnciTA2AhkA6WIZ~m5ZSQ_rHGR6C1P3Yt9UIg5Hzq8lAhkAzCmYA6EiDaz_QrmlC1ya4jnZA7RvF8Gf"}  
+        {"RecordUID": "9bb7RcIRWD6UUy3pxmnciTA2AhkA6WIZ\~m5ZSQ_rHGR6C1P3Yt9UIg5Hzq8lAhkAzCmYA6EiDaz_QrmlC1ya4jnZA7RvF8Gf"}  
         (Use the generated RecordUID for the below commands, this is just an example)  
 * Update record with a file to encrypt  
         python3 EncClientGenerateRecord.py --Address 192.168.0.1:8080 --UID 9bb7RcIRWD6UUy3pxmnciTA2AhkA6WIZ~m5ZSQ_rHGR6C1P3Yt9UIg5Hzq8lAhkAzCmYA6EiDaz_QrmlC1ya4jnZA7RvF8Gf --File sample-test-file.json  
