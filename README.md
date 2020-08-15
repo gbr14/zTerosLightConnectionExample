@@ -19,16 +19,16 @@ For more information please see [our website](https://gbr14.com/gbr14-products/)
 ```
 * Update record with a file to encrypt  
 ```
-    python3 EncClientGenerateRecord.py --Address 192.168.0.1:8080 --UID 9bb7RcIRWD6UUy3pxmnciTA2AhkA6WIZ~m5ZSQ_rHGR6C1P3Yt9UIg5Hzq8lAhkAzCmYA6EiDaz_QrmlC1ya4jnZA7RvF8Gf --File sample-test-file.json  
+    python3 EncClientUpdateRecord.py --Address 192.168.0.1:8080 --UID 9bb7RcIRWD6UUy3pxmnciTA2AhkA6WIZ~m5ZSQ_rHGR6C1P3Yt9UIg5Hzq8lAhkAzCmYA6EiDaz_QrmlC1ya4jnZA7RvF8Gf --File sample-test-file.json  
     { "Completed": "True", "RecordUID": "9bb7RcIRWD6UUy3pxmnciTA2AhkA6WIZ~m5ZSQ_rHGR6C1P3Yt9UIg5Hzq8lAhkAzCmYA6EiDaz_QrmlC1ya4jnZA7RvF8Gf"}  
 ```
 * Retrieve the record (and save it as a file)  
 ```
-    python3 EncClientGenerateRecord.py --Address 192.168.0.1:8080 --UID 9bb7RcIRWD6UUy3pxmnciTA2AhkA6WIZ~m5ZSQ_rHGR6C1P3Yt9UIg5Hzq8lAhkAzCmYA6EiDaz_QrmlC1ya4jnZA7RvF8Gf --File Outfile.json  
+    python3 EncClientGetRecord.py --Address 192.168.0.1:8080 --UID 9bb7RcIRWD6UUy3pxmnciTA2AhkA6WIZ~m5ZSQ_rHGR6C1P3Yt9UIg5Hzq8lAhkAzCmYA6EiDaz_QrmlC1ya4jnZA7RvF8Gf --File Outfile.json  
     (Nothing is printed from this command, but outfile.json should have been created and should be identical to sample-test-file.json)  
 ```
 * Delete the record  
 ```
-    python3 EncClientGenerateRecord.py --Address 192.168.0.1:8080 --UID 9bb7RcIRWD6UUy3pxmnciTA2AhkA6WIZ~m5ZSQ_rHGR6C1P3Yt9UIg5Hzq8lAhkAzCmYA6EiDaz_QrmlC1ya4jnZA7RvF8Gf  
+    python3 EncClientDeleteRecord.py --Address 192.168.0.1:8080 --UID 9bb7RcIRWD6UUy3pxmnciTA2AhkA6WIZ~m5ZSQ_rHGR6C1P3Yt9UIg5Hzq8lAhkAzCmYA6EiDaz_QrmlC1ya4jnZA7RvF8Gf  
     { "Completed": "True", "RecordUID": "9bb7RcIRWD6UUy3pxmnciTA2AhkA6WIZ~m5ZSQ_rHGR6C1P3Yt9UIg5Hzq8lAhkAzCmYA6EiDaz_QrmlC1ya4jnZA7RvF8Gf"}  
 ```
